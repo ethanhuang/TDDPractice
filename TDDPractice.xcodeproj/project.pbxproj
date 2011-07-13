@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3638C35713C498A70002F15A /* NSUserTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638C35613C498A70002F15A /* NSUserTestSuite.m */; };
+		3638C35A13C499E10002F15A /* NSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638C35913C499E10002F15A /* NSUser.m */; };
+		3638C35D13C4A8550002F15A /* NSSnapShotValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638C35C13C4A8550002F15A /* NSSnapShotValidator.m */; };
+		363E066313CBE55200EB4E90 /* NSSnapShotSrviceMgrTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E066213CBE55200EB4E90 /* NSSnapShotSrviceMgrTestSuite.m */; };
+		364BB6B613CB21DE005E384B /* NSLocalSnapShotQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BB6B513CB21DE005E384B /* NSLocalSnapShotQueue.m */; };
+		365A7E0513C575DF0003DB46 /* NSSnapShotViewerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A7E0413C575DF0003DB46 /* NSSnapShotViewerWindowController.m */; };
+		3695520513C54D1B003682B3 /* NSSnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3695520413C54D1B003682B3 /* NSSnapShot.m */; };
+		3695520C13C5504E003682B3 /* NSSnapShotTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3695520B13C5504E003682B3 /* NSSnapShotTestSuite.m */; };
+		36999C6313CD6F0400D3F754 /* EdMessageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36999C6213CD6F0400D3F754 /* EdMessageTest.m */; };
+		36CC032A13C69A5A00248A37 /* NSSnapShotAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC032913C69A5A00248A37 /* NSSnapShotAgent.m */; };
+		36CC032E13C69AA800248A37 /* NSSnapShotServiceMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC032D13C69AA800248A37 /* NSSnapShotServiceMgr.m */; };
+		36CC033113C6A5DF00248A37 /* NSSnapShotAgentTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC033013C6A5DE00248A37 /* NSSnapShotAgentTestSuite.m */; };
+		36D53BC513C46CC2009CE685 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D53BC413C46CC2009CE685 /* Cocoa.framework */; };
+		36D53BCF13C46CC2009CE685 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36D53BCD13C46CC2009CE685 /* InfoPlist.strings */; };
+		36D53BD213C46CC2009CE685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D53BD113C46CC2009CE685 /* main.m */; };
+		36D53BD513C46CC2009CE685 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 36D53BD313C46CC2009CE685 /* Credits.rtf */; };
+		36D53BD813C46CC2009CE685 /* TDDPracticeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D53BD713C46CC2009CE685 /* TDDPracticeAppDelegate.m */; };
+		36D53BDB13C46CC2009CE685 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D53BD913C46CC2009CE685 /* MainMenu.xib */; };
+		36D53BE213C46CC2009CE685 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D53BC413C46CC2009CE685 /* Cocoa.framework */; };
+		36D53BEA13C46CC2009CE685 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36D53BE813C46CC2009CE685 /* InfoPlist.strings */; };
+		36D53BED13C46CC2009CE685 /* TDDPracticeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 36D53BEC13C46CC2009CE685 /* TDDPracticeTests.h */; };
+		36D53BEF13C46CC2009CE685 /* TDDPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D53BEE13C46CC2009CE685 /* TDDPracticeTests.m */; };
+		36FF9F5B13C5ABAC00F56818 /* NSSnapShotViewerWindowControllerTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF9F5A13C5ABAC00F56818 /* NSSnapShotViewerWindowControllerTestSuite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36D53BE313C46CC2009CE685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D53BB713C46CC2009CE685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D53BBF13C46CC2009CE685;
+			remoteInfo = TDDPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36999D6613CD7AE600D3F754 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3638C35513C498A70002F15A /* NSUserTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSUserTestSuite.h; path = ../TDDPractice.xcodeproj/NSUserTestSuite.h; sourceTree = "<group>"; };
+		3638C35613C498A70002F15A /* NSUserTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSUserTestSuite.m; path = ../TDDPractice.xcodeproj/NSUserTestSuite.m; sourceTree = "<group>"; };
+		3638C35813C499E10002F15A /* NSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUser.h; sourceTree = "<group>"; };
+		3638C35913C499E10002F15A /* NSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUser.m; sourceTree = "<group>"; };
+		3638C35B13C4A8550002F15A /* NSSnapShotValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotValidator.h; sourceTree = "<group>"; };
+		3638C35C13C4A8550002F15A /* NSSnapShotValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotValidator.m; sourceTree = "<group>"; };
+		363E066113CBE55200EB4E90 /* NSSnapShotSrviceMgrTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotSrviceMgrTestSuite.h; sourceTree = "<group>"; };
+		363E066213CBE55200EB4E90 /* NSSnapShotSrviceMgrTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotSrviceMgrTestSuite.m; sourceTree = "<group>"; };
+		364BB6B413CB21DE005E384B /* NSLocalSnapShotQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLocalSnapShotQueue.h; sourceTree = "<group>"; };
+		364BB6B513CB21DE005E384B /* NSLocalSnapShotQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLocalSnapShotQueue.m; sourceTree = "<group>"; };
+		365A7E0313C575DF0003DB46 /* NSSnapShotViewerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotViewerWindowController.h; sourceTree = "<group>"; };
+		365A7E0413C575DF0003DB46 /* NSSnapShotViewerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotViewerWindowController.m; sourceTree = "<group>"; };
+		3695520313C54D1B003682B3 /* NSSnapShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShot.h; sourceTree = "<group>"; };
+		3695520413C54D1B003682B3 /* NSSnapShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShot.m; sourceTree = "<group>"; };
+		3695520A13C5504E003682B3 /* NSSnapShotTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotTestSuite.h; sourceTree = "<group>"; };
+		3695520B13C5504E003682B3 /* NSSnapShotTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotTestSuite.m; sourceTree = "<group>"; };
+		36999C6113CD6F0400D3F754 /* EdMessageTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdMessageTest.h; sourceTree = "<group>"; };
+		36999C6213CD6F0400D3F754 /* EdMessageTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdMessageTest.m; sourceTree = "<group>"; };
+		36CC032813C69A5A00248A37 /* NSSnapShotAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotAgent.h; sourceTree = "<group>"; };
+		36CC032913C69A5A00248A37 /* NSSnapShotAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotAgent.m; sourceTree = "<group>"; };
+		36CC032C13C69AA800248A37 /* NSSnapShotServiceMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotServiceMgr.h; sourceTree = "<group>"; };
+		36CC032D13C69AA800248A37 /* NSSnapShotServiceMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotServiceMgr.m; sourceTree = "<group>"; };
+		36CC032F13C6A5DE00248A37 /* NSSnapShotAgentTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotAgentTestSuite.h; sourceTree = "<group>"; };
+		36CC033013C6A5DE00248A37 /* NSSnapShotAgentTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotAgentTestSuite.m; sourceTree = "<group>"; };
+		36D53BC013C46CC2009CE685 /* TDDPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D53BC413C46CC2009CE685 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		36D53BC713C46CC2009CE685 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		36D53BC813C46CC2009CE685 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		36D53BC913C46CC2009CE685 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36D53BCC13C46CC2009CE685 /* TDDPractice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDDPractice-Info.plist"; sourceTree = "<group>"; };
+		36D53BCE13C46CC2009CE685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36D53BD013C46CC2009CE685 /* TDDPractice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDPractice-Prefix.pch"; sourceTree = "<group>"; };
+		36D53BD113C46CC2009CE685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36D53BD413C46CC2009CE685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		36D53BD613C46CC2009CE685 /* TDDPracticeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDPracticeAppDelegate.h; sourceTree = "<group>"; };
+		36D53BD713C46CC2009CE685 /* TDDPracticeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDPracticeAppDelegate.m; sourceTree = "<group>"; };
+		36D53BDA13C46CC2009CE685 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		36D53BE113C46CC2009CE685 /* TDDPracticeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDPracticeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D53BE713C46CC2009CE685 /* TDDPracticeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDDPracticeTests-Info.plist"; sourceTree = "<group>"; };
+		36D53BE913C46CC2009CE685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36D53BEB13C46CC2009CE685 /* TDDPracticeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDPracticeTests-Prefix.pch"; sourceTree = "<group>"; };
+		36D53BEC13C46CC2009CE685 /* TDDPracticeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDPracticeTests.h; sourceTree = "<group>"; };
+		36D53BEE13C46CC2009CE685 /* TDDPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDPracticeTests.m; sourceTree = "<group>"; };
+		36FF9F5913C5ABAC00F56818 /* NSSnapShotViewerWindowControllerTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotViewerWindowControllerTestSuite.h; sourceTree = "<group>"; };
+		36FF9F5A13C5ABAC00F56818 /* NSSnapShotViewerWindowControllerTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotViewerWindowControllerTestSuite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36D53BBD13C46CC2009CE685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D53BC513C46CC2009CE685 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D53BDD13C46CC2009CE685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D53BE213C46CC2009CE685 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		365A7E0013C574AC0003DB46 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				365A7E0313C575DF0003DB46 /* NSSnapShotViewerWindowController.h */,
+				365A7E0413C575DF0003DB46 /* NSSnapShotViewerWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		365A7E0213C574BF0003DB46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36D53BD913C46CC2009CE685 /* MainMenu.xib */,
+				36D53BD613C46CC2009CE685 /* TDDPracticeAppDelegate.h */,
+				36D53BD713C46CC2009CE685 /* TDDPracticeAppDelegate.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3695520D13C565C4003682B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3638C35813C499E10002F15A /* NSUser.h */,
+				3638C35913C499E10002F15A /* NSUser.m */,
+				3695520313C54D1B003682B3 /* NSSnapShot.h */,
+				3695520413C54D1B003682B3 /* NSSnapShot.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3695520E13C565DE003682B3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3638C35B13C4A8550002F15A /* NSSnapShotValidator.h */,
+				3638C35C13C4A8550002F15A /* NSSnapShotValidator.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		36CC032B13C69A6A00248A37 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				36CC032813C69A5A00248A37 /* NSSnapShotAgent.h */,
+				36CC032913C69A5A00248A37 /* NSSnapShotAgent.m */,
+				36CC032C13C69AA800248A37 /* NSSnapShotServiceMgr.h */,
+				36CC032D13C69AA800248A37 /* NSSnapShotServiceMgr.m */,
+				364BB6B413CB21DE005E384B /* NSLocalSnapShotQueue.h */,
+				364BB6B513CB21DE005E384B /* NSLocalSnapShotQueue.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		36CC033213C6A9AE00248A37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3695520A13C5504E003682B3 /* NSSnapShotTestSuite.h */,
+				3695520B13C5504E003682B3 /* NSSnapShotTestSuite.m */,
+				3638C35513C498A70002F15A /* NSUserTestSuite.h */,
+				3638C35613C498A70002F15A /* NSUserTestSuite.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		36CC033313C6A9B700248A37 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		36CC033413C6A9BA00248A37 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				36FF9F5A13C5ABAC00F56818 /* NSSnapShotViewerWindowControllerTestSuite.m */,
+				36FF9F5913C5ABAC00F56818 /* NSSnapShotViewerWindowControllerTestSuite.h */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		36CC033513C6A9BC00248A37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		36CC033613C6A9C000248A37 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				36CC032F13C6A5DE00248A37 /* NSSnapShotAgentTestSuite.h */,
+				36CC033013C6A5DE00248A37 /* NSSnapShotAgentTestSuite.m */,
+				363E066113CBE55200EB4E90 /* NSSnapShotSrviceMgrTestSuite.h */,
+				363E066213CBE55200EB4E90 /* NSSnapShotSrviceMgrTestSuite.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		36D53BB513C46CC2009CE685 = {
+			isa = PBXGroup;
+			children = (
+				36D53BCA13C46CC2009CE685 /* TDDPractice */,
+				36D53BE513C46CC2009CE685 /* TDDPracticeTests */,
+				36D53BC313C46CC2009CE685 /* Frameworks */,
+				36D53BC113C46CC2009CE685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36D53BC113C46CC2009CE685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36D53BC013C46CC2009CE685 /* TDDPractice.app */,
+				36D53BE113C46CC2009CE685 /* TDDPracticeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36D53BC313C46CC2009CE685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36D53BC413C46CC2009CE685 /* Cocoa.framework */,
+				36D53BC613C46CC2009CE685 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36D53BC613C46CC2009CE685 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36D53BC713C46CC2009CE685 /* AppKit.framework */,
+				36D53BC813C46CC2009CE685 /* CoreData.framework */,
+				36D53BC913C46CC2009CE685 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		36D53BCA13C46CC2009CE685 /* TDDPractice */ = {
+			isa = PBXGroup;
+			children = (
+				36CC032B13C69A6A00248A37 /* Service */,
+				365A7E0213C574BF0003DB46 /* Views */,
+				365A7E0013C574AC0003DB46 /* Controllers */,
+				3695520E13C565DE003682B3 /* Utilities */,
+				3695520D13C565C4003682B3 /* Models */,
+				36D53BCB13C46CC2009CE685 /* Supporting Files */,
+			);
+			path = TDDPractice;
+			sourceTree = "<group>";
+		};
+		36D53BCB13C46CC2009CE685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36D53BCC13C46CC2009CE685 /* TDDPractice-Info.plist */,
+				36D53BCD13C46CC2009CE685 /* InfoPlist.strings */,
+				36D53BD013C46CC2009CE685 /* TDDPractice-Prefix.pch */,
+				36D53BD113C46CC2009CE685 /* main.m */,
+				36D53BD313C46CC2009CE685 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36D53BE513C46CC2009CE685 /* TDDPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				36CC033613C6A9C000248A37 /* Service */,
+				36CC033513C6A9BC00248A37 /* Views */,
+				36CC033413C6A9BA00248A37 /* Controllers */,
+				36CC033313C6A9B700248A37 /* Utilities */,
+				36CC033213C6A9AE00248A37 /* Models */,
+				36D53BEC13C46CC2009CE685 /* TDDPracticeTests.h */,
+				36D53BEE13C46CC2009CE685 /* TDDPracticeTests.m */,
+				36999C6113CD6F0400D3F754 /* EdMessageTest.h */,
+				36999C6213CD6F0400D3F754 /* EdMessageTest.m */,
+				36D53BE613C46CC2009CE685 /* Supporting Files */,
+			);
+			path = TDDPracticeTests;
+			sourceTree = "<group>";
+		};
+		36D53BE613C46CC2009CE685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36D53BE713C46CC2009CE685 /* TDDPracticeTests-Info.plist */,
+				36D53BE813C46CC2009CE685 /* InfoPlist.strings */,
+				36D53BEB13C46CC2009CE685 /* TDDPracticeTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36D53BBF13C46CC2009CE685 /* TDDPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D53BF213C46CC2009CE685 /* Build configuration list for PBXNativeTarget "TDDPractice" */;
+			buildPhases = (
+				36D53BBC13C46CC2009CE685 /* Sources */,
+				36D53BBD13C46CC2009CE685 /* Frameworks */,
+				36D53BBE13C46CC2009CE685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDPractice;
+			productName = TDDPractice;
+			productReference = 36D53BC013C46CC2009CE685 /* TDDPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36D53BE013C46CC2009CE685 /* TDDPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D53BF513C46CC2009CE685 /* Build configuration list for PBXNativeTarget "TDDPracticeTests" */;
+			buildPhases = (
+				36D53BDC13C46CC2009CE685 /* Sources */,
+				36D53BDD13C46CC2009CE685 /* Frameworks */,
+				36D53BDE13C46CC2009CE685 /* Resources */,
+				36D53BDF13C46CC2009CE685 /* ShellScript */,
+				36999D6613CD7AE600D3F754 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D53BE413C46CC2009CE685 /* PBXTargetDependency */,
+			);
+			name = TDDPracticeTests;
+			productName = TDDPracticeTests;
+			productReference = 36D53BE113C46CC2009CE685 /* TDDPracticeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36D53BB713C46CC2009CE685 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 36D53BBA13C46CC2009CE685 /* Build configuration list for PBXProject "TDDPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 36D53BB513C46CC2009CE685;
+			productRefGroup = 36D53BC113C46CC2009CE685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36D53BBF13C46CC2009CE685 /* TDDPractice */,
+				36D53BE013C46CC2009CE685 /* TDDPracticeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36D53BBE13C46CC2009CE685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D53BCF13C46CC2009CE685 /* InfoPlist.strings in Resources */,
+				36D53BD513C46CC2009CE685 /* Credits.rtf in Resources */,
+				36D53BDB13C46CC2009CE685 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D53BDE13C46CC2009CE685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D53BEA13C46CC2009CE685 /* InfoPlist.strings in Resources */,
+				36D53BED13C46CC2009CE685 /* TDDPracticeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D53BDF13C46CC2009CE685 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36D53BBC13C46CC2009CE685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D53BD213C46CC2009CE685 /* main.m in Sources */,
+				36D53BD813C46CC2009CE685 /* TDDPracticeAppDelegate.m in Sources */,
+				3638C35A13C499E10002F15A /* NSUser.m in Sources */,
+				3638C35D13C4A8550002F15A /* NSSnapShotValidator.m in Sources */,
+				3695520513C54D1B003682B3 /* NSSnapShot.m in Sources */,
+				365A7E0513C575DF0003DB46 /* NSSnapShotViewerWindowController.m in Sources */,
+				36CC032A13C69A5A00248A37 /* NSSnapShotAgent.m in Sources */,
+				36CC032E13C69AA800248A37 /* NSSnapShotServiceMgr.m in Sources */,
+				364BB6B613CB21DE005E384B /* NSLocalSnapShotQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D53BDC13C46CC2009CE685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D53BEF13C46CC2009CE685 /* TDDPracticeTests.m in Sources */,
+				3638C35713C498A70002F15A /* NSUserTestSuite.m in Sources */,
+				3695520C13C5504E003682B3 /* NSSnapShotTestSuite.m in Sources */,
+				36FF9F5B13C5ABAC00F56818 /* NSSnapShotViewerWindowControllerTestSuite.m in Sources */,
+				36CC033113C6A5DF00248A37 /* NSSnapShotAgentTestSuite.m in Sources */,
+				363E066313CBE55200EB4E90 /* NSSnapShotSrviceMgrTestSuite.m in Sources */,
+				36999C6313CD6F0400D3F754 /* EdMessageTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36D53BE413C46CC2009CE685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D53BBF13C46CC2009CE685 /* TDDPractice */;
+			targetProxy = 36D53BE313C46CC2009CE685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36D53BCD13C46CC2009CE685 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D53BCE13C46CC2009CE685 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36D53BD313C46CC2009CE685 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D53BD413C46CC2009CE685 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		36D53BD913C46CC2009CE685 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D53BDA13C46CC2009CE685 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		36D53BE813C46CC2009CE685 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D53BE913C46CC2009CE685 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36D53BF013C46CC2009CE685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36D53BF113C46CC2009CE685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36D53BF313C46CC2009CE685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDPractice/TDDPractice-Prefix.pch";
+				INFOPLIST_FILE = "TDDPractice/TDDPractice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36D53BF413C46CC2009CE685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDPractice/TDDPractice-Prefix.pch";
+				INFOPLIST_FILE = "TDDPractice/TDDPractice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36D53BF613C46CC2009CE685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TDDPractice.app/Contents/MacOS/TDDPractice";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/../../..\"",
+					"\"$(SRCROOT)/../../../EDMessage 17\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDPracticeTests/TDDPracticeTests-Prefix.pch";
+				INFOPLIST_FILE = "TDDPracticeTests/TDDPracticeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		36D53BF713C46CC2009CE685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TDDPractice.app/Contents/MacOS/TDDPractice";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/../../..\"",
+					"\"$(SRCROOT)/../../../EDMessage 17\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDPracticeTests/TDDPracticeTests-Prefix.pch";
+				INFOPLIST_FILE = "TDDPracticeTests/TDDPracticeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D53BBA13C46CC2009CE685 /* Build configuration list for PBXProject "TDDPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D53BF013C46CC2009CE685 /* Debug */,
+				36D53BF113C46CC2009CE685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D53BF213C46CC2009CE685 /* Build configuration list for PBXNativeTarget "TDDPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D53BF313C46CC2009CE685 /* Debug */,
+				36D53BF413C46CC2009CE685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D53BF513C46CC2009CE685 /* Build configuration list for PBXNativeTarget "TDDPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D53BF613C46CC2009CE685 /* Debug */,
+				36D53BF713C46CC2009CE685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36D53BB713C46CC2009CE685 /* Project object */;
+}

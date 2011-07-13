@@ -1,0 +1,465 @@
+TTDDPractice
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/Info.plist TDDPractice/TDDPractice-Info.plist
+cProcessPCH /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch.pth TDDPractice/TDDPractice-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/main.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/TDDPracticeAppDelegate.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPracticeAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSUser.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSUser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotValidator.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShot.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShot.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotViewerWindowController.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotViewerWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotAgent.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotAgent.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotServiceMgr.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotServiceMgr.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSLocalSnapShotQueue.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSLocalSnapShotQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/MacOS/TDDPractice normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004E1D097400000000000000EE
+t1310525812
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004DA341E70000000000003430
+t1302544871
+s13360
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/EDCommon.framework/EDCommon
+c00000000492A33E60000000000100000
+t1227502566
+s1048576
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/EDMessage.framework/EDMessage
+c00000000492A33E600000000000E60C8
+t1227502566
+s942280
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSLocalSnapShotQueue.h
+c000000004E1BCA05000000000000024A
+t1310444037
+s586
+i<Foundation/Foundation.h>
+i"NSUser.h"
+i"NSSnapShot.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSLocalSnapShotQueue.m
+c000000004E1BCA030000000000000553
+t1310444035
+s1363
+i"NSLocalSnapShotQueue.h"
+i"NSSnapShot.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShot.h
+c000000004E152BED0000000000000352
+t1310010349
+s850
+i<Foundation/Foundation.h>
+i"NSUser.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShot.m
+c000000004E1BBDAE00000000000005E7
+t1310440878
+s1511
+i"NSSnapShot.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotAgent.h
+c000000004E1BD13800000000000001CA
+t1310445880
+s458
+i<Foundation/Foundation.h>
+i"NSSnapShot.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotAgent.m
+c000000004E1BD2E0000000000000057E
+t1310446304
+s1406
+i"NSSnapShotAgent.h"
+i"NSUser.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotServiceMgr.h
+c000000004E1BB7BF000000000000023F
+t1310439359
+s575
+i<Foundation/Foundation.h>
+i"NSSnapShotAgent.h"
+i"NSSnapShot.h"
+i"NSLocalSnapShotQueue.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotServiceMgr.m
+c000000004E1BC84400000000000005DC
+t1310443588
+s1500
+i"NSSnapShotServiceMgr.h"
+i"NSSnapShotAgent.h"
+i"NSUser.h"
+i"NSLocalSnapShotQueue.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.h
+c000000004E1510C40000000000000162
+t1310003396
+s354
+i<Foundation/Foundation.h>
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m
+c000000004E1AABA80000000000000488
+t1310370728
+s1160
+i"NSSnapShotValidator.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotViewerWindowController.h
+c000000004E15751C0000000000000150
+t1310029084
+s336
+i<Foundation/Foundation.h>
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotViewerWindowController.m
+c000000004E15751A00000000000001DF
+t1310029082
+s479
+i"NSSnapShotViewerWindowController.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSUser.h
+c000000004E147632000000000000026D
+t1309963826
+s621
+i<Foundation/Foundation.h>
+i"NSSnapShotValidator.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSUser.m
+c000000004E1510B000000000000003FD
+t1310003376
+s1021
+i"NSUser.h"
+i"NSSnapShotValidator.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPractice-Prefix.pch
+c000000004E1435420000000000000099
+t1309947202
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPracticeAppDelegate.h
+c000000004E15755700000000000001CC
+t1310029143
+s460
+i<Cocoa/Cocoa.h>
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPracticeAppDelegate.m
+c000000004E1569D600000000000001AF
+t1310026198
+s431
+i"TDDPracticeAppDelegate.h"
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/en.lproj/Credits.rtf
+c000000004E14354200000000000001B4
+t1309947202
+s436
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/en.lproj/InfoPlist.strings
+c000000004E143542000000000000002D
+t1309947202
+s45
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/en.lproj/MainMenu.xib
+c000000004E154F70000000000002809D
+t1310019440
+s163997
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/main.m
+c000000004E14354200000000000000FD
+t1309947202
+s253
+i<Cocoa/Cocoa.h>
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/Info.plist
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/MacOS/TDDPractice
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSLocalSnapShotQueue.o
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShot.o
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotAgent.o
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotServiceMgr.o
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotValidator.o
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotViewerWindowController.o
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSUser.o
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/TDDPractice.LinkFileList
+c000000004E1D4B420000000000000514
+t1310542658
+s1300
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/TDDPracticeAppDelegate.o
+t2
+s0
+
+N/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch.pth
+t2
+s0
+
+NTDDPractice/TDDPractice-Info.plist
+c000000004E14354200000000000003DF
+t1309947202
+s991
+
+CBuild AST from /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSLocalSnapShotQueue.m
+r0
+
+CBuild AST from /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShot.m
+r0
+
+CBuild AST from /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotAgent.m
+r0
+
+CBuild AST from /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotServiceMgr.m
+r0
+
+CBuild AST from /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m
+r0
+
+CBuild AST from /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotViewerWindowController.m
+r0
+
+CBuild AST from /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSUser.m
+r0
+
+CBuild AST from /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPracticeAppDelegate.m
+r0
+
+CBuild AST from /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18cd26c282cdb341^23d850c282cdb341^---0#1#0#--18"Check dependencies
+
+CCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSLocalSnapShotQueue.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSLocalSnapShotQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332235459.771136
+e332235459.869149
+r1
+xCompileC
+xbuild/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSLocalSnapShotQueue.o
+x/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSLocalSnapShotQueue.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSLocalSnapShotQueue.me290c5c382cdb341^008ddec382cdb341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSLocalSnapShotQueue.m0000000000000000^2321"CompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSLocalSnapShotQueue.o TDDPractice/NSLocalSnapShotQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-generated-files.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-own-target-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-all-target-headers.hmap -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-project-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/include -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources/x86_64 -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources -F/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../.. "-F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../../EDMessage 17" -F/Users/huangethan/github/local/TDDPractice/TDDPractice -include /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch -c /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSLocalSnapShotQueue.m -o /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSLocalSnapShotQueue.o
+
+CCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShot.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShot.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332235459.612053
+e332235459.667468
+r1
+xCompileC
+xbuild/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShot.o
+x/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShot.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShot.m20d19cc382cdb341^4aecaac382cdb341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShot.m0000000000000000^2281"CompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShot.o TDDPractice/NSSnapShot.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-generated-files.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-own-target-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-all-target-headers.hmap -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-project-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/include -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources/x86_64 -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources -F/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../.. "-F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../../EDMessage 17" -F/Users/huangethan/github/local/TDDPractice/TDDPractice -include /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch -c /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShot.m -o /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShot.o
+
+CCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotAgent.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotAgent.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332235459.668711
+e332235459.793772
+r1
+xCompileC
+xbuild/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotAgent.o
+x/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotAgent.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotAgent.m8752abc382cdb341^567fccc382cdb341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotAgent.m0000000000000000^2301"CompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotAgent.o TDDPractice/NSSnapShotAgent.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-generated-files.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-own-target-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-all-target-headers.hmap -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-project-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/include -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources/x86_64 -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources -F/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../.. "-F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../../EDMessage 17" -F/Users/huangethan/github/local/TDDPractice/TDDPractice -include /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch -c /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotAgent.m -o /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotAgent.o
+
+CCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotServiceMgr.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotServiceMgr.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332235459.684298
+e332235459.769875
+r1
+xCompileC
+xbuild/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotServiceMgr.o
+x/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotServiceMgr.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotServiceMgr.mb54fafc382cdb341^fd86c9c382cdb341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotServiceMgr.m0000000000000000^2321"CompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotServiceMgr.o TDDPractice/NSSnapShotServiceMgr.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-generated-files.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-own-target-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-all-target-headers.hmap -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-project-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/include -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources/x86_64 -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources -F/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../.. "-F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../../EDMessage 17" -F/Users/huangethan/github/local/TDDPractice/TDDPractice -include /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch -c /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotServiceMgr.m -o /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotServiceMgr.o
+
+CCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotValidator.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332235459.583785
+e332235459.633632
+r1
+xCompileC
+xbuild/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotValidator.o
+x/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m:31:26: warning: unknown escape sequence '\.' [1]
+o     NSString *IPRegex = @"^(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9])\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[0-9])$"; 
+o                          ^
+o/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m:31:26: warning: unknown escape sequence '\.' [1]
+o/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m:31:26: warning: unknown escape sequence '\.' [1]
+o3 warnings generated.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m259595c382cdb341^e541a2c382cdb341^-751"/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m:31:26: warning: unknown escape sequence '\.' [1]     NSString *IPRegex = @"^(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9])\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[0-9])$";                           ^/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m:31:26: warning: unknown escape sequence '\.' [1]/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m:31:26: warning: unknown escape sequence '\.' [1]3 warnings generated.3(21%IDEActivityLogMessage2@28"Unknown escape sequence '\.'-332235459#0#138#-1#-23%DVTTextDocumentLocation3@104"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m0000000000000000^30#25#30#25#18446744073709551615#0#29"Lexical or Preprocessor Issue--2@28"Unknown escape sequence '\.'-332235459#453#138#-1#-3@104"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m0000000000000000^30#25#30#25#18446744073709551615#0#29"Lexical or Preprocessor Issue--2@28"Unknown escape sequence '\.'-332235459#591#138#-1#-3@104"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m0000000000000000^30#25#30#25#18446744073709551615#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m0000000000000000^2317"CompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotValidator.o TDDPractice/NSSnapShotValidator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-generated-files.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-own-target-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-all-target-headers.hmap -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-project-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/include -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources/x86_64 -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources -F/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../.. "-F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../../EDMessage 17" -F/Users/huangethan/github/local/TDDPractice/TDDPractice -include /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch -c /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotValidator.m -o /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotValidator.o
+
+CCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotViewerWindowController.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotViewerWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332235459.634875
+e332235459.683055
+r1
+xCompileC
+xbuild/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotViewerWindowController.o
+x/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotViewerWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotViewerWindowController.m2ea9a2c382cdb341^0adcaec382cdb341^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotViewerWindowController.m0000000000000000^2369"CompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotViewerWindowController.o TDDPractice/NSSnapShotViewerWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-generated-files.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-own-target-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-all-target-headers.hmap -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-project-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/include -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources/x86_64 -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources -F/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../.. "-F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../../EDMessage 17" -F/Users/huangethan/github/local/TDDPractice/TDDPractice -include /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch -c /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSSnapShotViewerWindowController.m -o /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSSnapShotViewerWindowController.o
+
+CCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSUser.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSUser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332235459.561504
+e332235459.610828
+r1
+xCompileC
+xbuild/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSUser.o
+x/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSUser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSUser.m7ae08fc382cdb341^c45e9cc382cdb341^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSUser.m0000000000000000^2265"CompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSUser.o TDDPractice/NSUser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-generated-files.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-own-target-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-all-target-headers.hmap -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-project-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/include -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources/x86_64 -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources -F/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../.. "-F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../../EDMessage 17" -F/Users/huangethan/github/local/TDDPractice/TDDPractice -include /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch -c /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/NSUser.m -o /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/NSUser.o
+
+CCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/TDDPracticeAppDelegate.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPracticeAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332235459.514381
+e332235459.582536
+r1
+xCompileC
+xbuild/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/TDDPracticeAppDelegate.o
+x/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPracticeAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPracticeAppDelegate.mc0d083c382cdb341^5e2b95c382cdb341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPracticeAppDelegate.m0000000000000000^2329"CompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/TDDPracticeAppDelegate.o TDDPractice/TDDPracticeAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-generated-files.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-own-target-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-all-target-headers.hmap -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-project-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/include -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources/x86_64 -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources -F/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../.. "-F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../../EDMessage 17" -F/Users/huangethan/github/local/TDDPractice/TDDPractice -include /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch -c /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPracticeAppDelegate.m -o /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/TDDPracticeAppDelegate.o
+
+CCompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/main.o /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332235459.514357
+e332235459.560265
+r1
+xCompileC
+xbuild/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/main.o
+x/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/main.m5fd383c382cdb341^016d8fc382cdb341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/main.m0000000000000000^2257"CompileC build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/main.o TDDPractice/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-generated-files.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-own-target-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-all-target-headers.hmap -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-project-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/include -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources/x86_64 -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources -F/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../.. "-F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../../EDMessage 17" -F/Users/huangethan/github/local/TDDPractice/TDDPractice -include /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch -c /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/main.m -o /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/main.o
+
+CCompileXIB /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/en.lproj/MainMenu.xib
+r0
+
+CCopyStringsFile /Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/Resources/en.lproj/InfoPlist.strings TDDPractice/en.lproj/InfoPlist.strings
+r0
+
+CCpResource TDDPractice/en.lproj/Credits.rtf build/Debug/TDDPractice.app/Contents/Resources/en.lproj/Credits.rtf
+r0
+
+CLd /Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/MacOS/TDDPractice normal x86_64
+s332235459.870583
+e332235459.920054
+r0
+xLd
+x/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/MacOS/TDDPractice
+xnormal
+xx86_64
+old: in /Users/huangethan/github/EDMessage 17/EDCommon.framework/EDCommon, truncated fat file. Slice from 847872 to 1189136 is past end of file with length 1048576 for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/MacOS/TDDPracticea48ddfc382cdb341^83a4ebc382cdb341^-324"ld: in /Users/huangethan/github/EDMessage 17/EDCommon.framework/EDCommon, truncated fat file. Slice from 847872 to 1189136 is past end of file with length 1048576 for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)Command /Developer/usr/bin/clang failed with exit code 12(21%IDEActivityLogMessage2@182"In /Users/huangethan/github/EDMessage 17/EDCommon.framework/EDCommon, truncated fat file. Slice from 847872 to 1189136 is past end of file with length 1048576 for architecture x86_64-332235459#0#187#-0#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@56"Command /Developer/usr/bin/clang failed with exit code 1-332235459#18446744073709551615#0#-2#--30"Apple Mach-O Linker (ld) Error--0#0#0#--957"Ld build/Debug/TDDPractice.app/Contents/MacOS/TDDPractice normal x86_64    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../.. "-F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../../EDMessage 17" -F/Users/huangethan/github/local/TDDPractice/TDDPractice -filelist /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/Objects-normal/x86_64/TDDPractice.LinkFileList -mmacosx-version-min=10.6 -framework EDCommon -framework EDMessage -framework Cocoa -o /Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/MacOS/TDDPractice
+
+CProcessInfoPlistFile /Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/Info.plist TDDPractice/TDDPractice-Info.plist
+s332235458.323285
+e332235458.327888
+r1
+xProcessInfoPlistFile
+x/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/Info.plist
+xTDDPractice/TDDPractice-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process TDDPractice/TDDPractice-Info.plist40db52c282cdb341^4df653c282cdb341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPractice-Info.plist0000000000000000^486"ProcessInfoPlistFile build/Debug/TDDPractice.app/Contents/Info.plist TDDPractice/TDDPractice-Info.plist    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    builtin-infoPlistUtility TDDPractice/TDDPractice-Info.plist -genpkginfo /Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app/Contents/Info.plist
+
+CProcessPCH /Users/huangethan/Library/Developer/Xcode/DerivedData/TDDPractice-gdlooukcjtnwhycbowjhcimrrove/Index/PrecompiledHeaders/TDDPractice-Prefix-exvjtpwlaodlqidzlyjjnrjaihom_ast/TDDPractice-Prefix.pch.pth TDDPractice/TDDPractice-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch.pth TDDPractice/TDDPractice-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332235458.330577
+e332235459.512658
+r1
+xProcessPCH
+x/var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch.pth
+xTDDPractice/TDDPractice-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile TDDPractice/TDDPractice-Prefix.pch2bc354c282cdb341^f33d83c382cdb341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPractice-Prefix.pch0000000000000000^2257"ProcessPCH /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch.pth TDDPractice/TDDPractice-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/huangethan/github/local/TDDPractice/TDDPractice    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-generated-files.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-own-target-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-all-target-headers.hmap -iquote /Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/TDDPractice-project-headers.hmap -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/include -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources/x86_64 -I/Users/huangethan/github/local/TDDPractice/TDDPractice/build/TDDPractice.build/Debug/TDDPractice.build/DerivedSources -F/Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug -F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../.. "-F/Users/huangethan/github/local/TDDPractice/TDDPractice/../../../EDMessage 17" -F/Users/huangethan/github/local/TDDPractice/TDDPractice -c /Users/huangethan/github/local/TDDPractice/TDDPractice/TDDPractice/TDDPractice-Prefix.pch -o /var/folders/17/17LIid9fE28GzCUj29eeTE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TDDPractice-Prefix-aceilqhoknxxnwgzcfuiwrfqbdqn/TDDPractice-Prefix.pch.pth
+
+CTouch /Users/huangethan/github/local/TDDPractice/TDDPractice/build/Debug/TDDPractice.app
+r0
+
