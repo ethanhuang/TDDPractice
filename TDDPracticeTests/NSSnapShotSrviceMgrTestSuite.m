@@ -39,7 +39,7 @@ NSSnapShot *testSnapShot;
     agent = [NSSnapShotAgent getAgtInstance];
     STAssertNotNil(localQ, @"*** Get NSSnapShotAgent instance = nil...");   
     
-    imgFilePath = @"/Users/huangethan/github/local/TDDPractice/TDDPractice/ss1.tiff";
+    imgFilePath = @"/Users/huangethan/github/TDDPractice/ss1.tiff";
     snapShotSender = [[NSUser alloc] init:@"ethan@google.com" :@"192.168.0.1"];
     snapShotReceiver = [[NSUser alloc] init:@"huang@google.com" :@"10.9.9.23"];
     sentDate = [[NSDate alloc] initWithTimeIntervalSinceNow:0];

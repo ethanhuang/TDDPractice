@@ -27,7 +27,7 @@
 }
 
 -(void)testNewSnapShotWithValidParameters{
-    NSString *imgFilePath = @"/Users/huangethan/github/local/TDDPractice/TDDPractice/ss1.tiff";
+    NSString *imgFilePath = @"/Users/huangethan/github/TDDPractice/ss1.tiff";
     NSUser *snapShotSender = [[NSUser alloc] init:@"ethan@google.com" :@"192.168.0.1"];
     NSUser *snapShotReceiver = [[NSUser alloc] init:@"huang@google.com" :@"10.9.9.23"];
     NSDate *sentDate = [[NSDate alloc] initWithTimeIntervalSinceNow:0];

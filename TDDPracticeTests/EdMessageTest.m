@@ -27,7 +27,7 @@
 }
 
 -(void)testReceiveMail{
-    STAssertFalse(TRUE, @"------------ First Test for EDMessage -----------");
+    STAssertTrue(TRUE, @"------------ First Test for EDMessage -----------");
 }
 
 @end

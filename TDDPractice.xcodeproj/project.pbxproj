@@ -16,6 +16,10 @@
 		3695520513C54D1B003682B3 /* NSSnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3695520413C54D1B003682B3 /* NSSnapShot.m */; };
 		3695520C13C5504E003682B3 /* NSSnapShotTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3695520B13C5504E003682B3 /* NSSnapShotTestSuite.m */; };
 		36999C6313CD6F0400D3F754 /* EdMessageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36999C6213CD6F0400D3F754 /* EdMessageTest.m */; };
+		36999E7913CD8A8D00D3F754 /* EDMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36999E7813CD8A8D00D3F754 /* EDMessage.framework */; };
+		36999E7B13CD8AAC00D3F754 /* EDMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36999E7A13CD8AAC00D3F754 /* EDMessage.framework */; };
+		36999E7D13CD8AFF00D3F754 /* EDCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36999E7C13CD8AFF00D3F754 /* EDCommon.framework */; };
+		36999E7F13CD8B0F00D3F754 /* EDCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36999E7E13CD8B0F00D3F754 /* EDCommon.framework */; };
 		36CC032A13C69A5A00248A37 /* NSSnapShotAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC032913C69A5A00248A37 /* NSSnapShotAgent.m */; };
 		36CC032E13C69AA800248A37 /* NSSnapShotServiceMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC032D13C69AA800248A37 /* NSSnapShotServiceMgr.m */; };
 		36CC033113C6A5DF00248A37 /* NSSnapShotAgentTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC033013C6A5DE00248A37 /* NSSnapShotAgentTestSuite.m */; };
@@ -73,6 +77,10 @@
 		3695520B13C5504E003682B3 /* NSSnapShotTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotTestSuite.m; sourceTree = "<group>"; };
 		36999C6113CD6F0400D3F754 /* EdMessageTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdMessageTest.h; sourceTree = "<group>"; };
 		36999C6213CD6F0400D3F754 /* EdMessageTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdMessageTest.m; sourceTree = "<group>"; };
+		36999E7813CD8A8D00D3F754 /* EDMessage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EDMessage.framework; sourceTree = "<group>"; };
+		36999E7A13CD8AAC00D3F754 /* EDMessage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EDMessage.framework; sourceTree = "<group>"; };
+		36999E7C13CD8AFF00D3F754 /* EDCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EDCommon.framework; sourceTree = "<group>"; };
+		36999E7E13CD8B0F00D3F754 /* EDCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EDCommon.framework; sourceTree = "<group>"; };
 		36CC032813C69A5A00248A37 /* NSSnapShotAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotAgent.h; sourceTree = "<group>"; };
 		36CC032913C69A5A00248A37 /* NSSnapShotAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotAgent.m; sourceTree = "<group>"; };
 		36CC032C13C69AA800248A37 /* NSSnapShotServiceMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotServiceMgr.h; sourceTree = "<group>"; };
@@ -107,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36999E7F13CD8B0F00D3F754 /* EDCommon.framework in Frameworks */,
+				36999E7B13CD8AAC00D3F754 /* EDMessage.framework in Frameworks */,
 				36D53BC513C46CC2009CE685 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,6 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36999E7D13CD8AFF00D3F754 /* EDCommon.framework in Frameworks */,
+				36999E7913CD8A8D00D3F754 /* EDMessage.framework in Frameworks */,
 				36D53BE213C46CC2009CE685 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +253,10 @@
 		36D53BC313C46CC2009CE685 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36999E7E13CD8B0F00D3F754 /* EDCommon.framework */,
+				36999E7C13CD8AFF00D3F754 /* EDCommon.framework */,
+				36999E7A13CD8AAC00D3F754 /* EDMessage.framework */,
+				36999E7813CD8A8D00D3F754 /* EDMessage.framework */,
 				36D53BC413C46CC2009CE685 /* Cocoa.framework */,
 				36D53BC613C46CC2009CE685 /* Other Frameworks */,
 			);
@@ -566,8 +582,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-					"\"$(SRCROOT)/../../..\"",
-					"\"$(SRCROOT)/../../../EDMessage 17\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -593,8 +608,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-					"\"$(SRCROOT)/../../..\"",
-					"\"$(SRCROOT)/../../../EDMessage 17\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
