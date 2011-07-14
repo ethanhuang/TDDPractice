@@ -11,15 +11,19 @@
 		3638C35A13C499E10002F15A /* NSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638C35913C499E10002F15A /* NSUser.m */; };
 		3638C35D13C4A8550002F15A /* NSSnapShotValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638C35C13C4A8550002F15A /* NSSnapShotValidator.m */; };
 		363E066313CBE55200EB4E90 /* NSSnapShotSrviceMgrTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 363E066213CBE55200EB4E90 /* NSSnapShotSrviceMgrTestSuite.m */; };
+		364081B613CEC5AB00B79B38 /* EDCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364081B413CEC5AB00B79B38 /* EDCommon.framework */; };
+		364081B713CEC5AB00B79B38 /* EDCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364081B413CEC5AB00B79B38 /* EDCommon.framework */; };
+		364081B813CEC5AB00B79B38 /* EDMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364081B513CEC5AB00B79B38 /* EDMessage.framework */; };
+		364081B913CEC5AB00B79B38 /* EDMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364081B513CEC5AB00B79B38 /* EDMessage.framework */; };
 		364BB6B613CB21DE005E384B /* NSLocalSnapShotQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 364BB6B513CB21DE005E384B /* NSLocalSnapShotQueue.m */; };
 		365A7E0513C575DF0003DB46 /* NSSnapShotViewerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A7E0413C575DF0003DB46 /* NSSnapShotViewerWindowController.m */; };
+		3660E58D13CEDBF10057AEA2 /* EDCommon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 364081B413CEC5AB00B79B38 /* EDCommon.framework */; };
+		3660E58E13CEDBF10057AEA2 /* EDMessage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 364081B513CEC5AB00B79B38 /* EDMessage.framework */; };
+		3660E59013CEDBF60057AEA2 /* EDCommon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 364081B413CEC5AB00B79B38 /* EDCommon.framework */; };
+		3660E59113CEDBF60057AEA2 /* EDMessage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 364081B513CEC5AB00B79B38 /* EDMessage.framework */; };
 		3695520513C54D1B003682B3 /* NSSnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3695520413C54D1B003682B3 /* NSSnapShot.m */; };
 		3695520C13C5504E003682B3 /* NSSnapShotTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3695520B13C5504E003682B3 /* NSSnapShotTestSuite.m */; };
 		36999C6313CD6F0400D3F754 /* EdMessageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36999C6213CD6F0400D3F754 /* EdMessageTest.m */; };
-		36999E7913CD8A8D00D3F754 /* EDMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36999E7813CD8A8D00D3F754 /* EDMessage.framework */; };
-		36999E7B13CD8AAC00D3F754 /* EDMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36999E7A13CD8AAC00D3F754 /* EDMessage.framework */; };
-		36999E7D13CD8AFF00D3F754 /* EDCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36999E7C13CD8AFF00D3F754 /* EDCommon.framework */; };
-		36999E7F13CD8B0F00D3F754 /* EDCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36999E7E13CD8B0F00D3F754 /* EDCommon.framework */; };
 		36CC032A13C69A5A00248A37 /* NSSnapShotAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC032913C69A5A00248A37 /* NSSnapShotAgent.m */; };
 		36CC032E13C69AA800248A37 /* NSSnapShotServiceMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC032D13C69AA800248A37 /* NSSnapShotServiceMgr.m */; };
 		36CC033113C6A5DF00248A37 /* NSSnapShotAgentTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CC033013C6A5DE00248A37 /* NSSnapShotAgentTestSuite.m */; };
@@ -47,12 +51,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		36999D6613CD7AE600D3F754 /* CopyFiles */ = {
+		364081A913CEBE1400B79B38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3660E59013CEDBF60057AEA2 /* EDCommon.framework in CopyFiles */,
+				3660E59113CEDBF60057AEA2 /* EDMessage.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		364081BA13CECDAD00B79B38 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3660E58D13CEDBF10057AEA2 /* EDCommon.framework in CopyFiles */,
+				3660E58E13CEDBF10057AEA2 /* EDMessage.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +84,8 @@
 		3638C35C13C4A8550002F15A /* NSSnapShotValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotValidator.m; sourceTree = "<group>"; };
 		363E066113CBE55200EB4E90 /* NSSnapShotSrviceMgrTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotSrviceMgrTestSuite.h; sourceTree = "<group>"; };
 		363E066213CBE55200EB4E90 /* NSSnapShotSrviceMgrTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotSrviceMgrTestSuite.m; sourceTree = "<group>"; };
+		364081B413CEC5AB00B79B38 /* EDCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EDCommon.framework; path = Library/Frameworks/EDCommon.framework; sourceTree = "<group>"; };
+		364081B513CEC5AB00B79B38 /* EDMessage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EDMessage.framework; path = Library/Frameworks/EDMessage.framework; sourceTree = "<group>"; };
 		364BB6B413CB21DE005E384B /* NSLocalSnapShotQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLocalSnapShotQueue.h; sourceTree = "<group>"; };
 		364BB6B513CB21DE005E384B /* NSLocalSnapShotQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLocalSnapShotQueue.m; sourceTree = "<group>"; };
 		365A7E0313C575DF0003DB46 /* NSSnapShotViewerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotViewerWindowController.h; sourceTree = "<group>"; };
@@ -77,10 +96,6 @@
 		3695520B13C5504E003682B3 /* NSSnapShotTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotTestSuite.m; sourceTree = "<group>"; };
 		36999C6113CD6F0400D3F754 /* EdMessageTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdMessageTest.h; sourceTree = "<group>"; };
 		36999C6213CD6F0400D3F754 /* EdMessageTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdMessageTest.m; sourceTree = "<group>"; };
-		36999E7813CD8A8D00D3F754 /* EDMessage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EDMessage.framework; sourceTree = "<group>"; };
-		36999E7A13CD8AAC00D3F754 /* EDMessage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EDMessage.framework; sourceTree = "<group>"; };
-		36999E7C13CD8AFF00D3F754 /* EDCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EDCommon.framework; sourceTree = "<group>"; };
-		36999E7E13CD8B0F00D3F754 /* EDCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EDCommon.framework; sourceTree = "<group>"; };
 		36CC032813C69A5A00248A37 /* NSSnapShotAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotAgent.h; sourceTree = "<group>"; };
 		36CC032913C69A5A00248A37 /* NSSnapShotAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSnapShotAgent.m; sourceTree = "<group>"; };
 		36CC032C13C69AA800248A37 /* NSSnapShotServiceMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSnapShotServiceMgr.h; sourceTree = "<group>"; };
@@ -115,9 +130,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36999E7F13CD8B0F00D3F754 /* EDCommon.framework in Frameworks */,
-				36999E7B13CD8AAC00D3F754 /* EDMessage.framework in Frameworks */,
 				36D53BC513C46CC2009CE685 /* Cocoa.framework in Frameworks */,
+				364081B613CEC5AB00B79B38 /* EDCommon.framework in Frameworks */,
+				364081B813CEC5AB00B79B38 /* EDMessage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,9 +140,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36999E7D13CD8AFF00D3F754 /* EDCommon.framework in Frameworks */,
-				36999E7913CD8A8D00D3F754 /* EDMessage.framework in Frameworks */,
 				36D53BE213C46CC2009CE685 /* Cocoa.framework in Frameworks */,
+				364081B713CEC5AB00B79B38 /* EDCommon.framework in Frameworks */,
+				364081B913CEC5AB00B79B38 /* EDMessage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,10 +268,8 @@
 		36D53BC313C46CC2009CE685 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				36999E7E13CD8B0F00D3F754 /* EDCommon.framework */,
-				36999E7C13CD8AFF00D3F754 /* EDCommon.framework */,
-				36999E7A13CD8AAC00D3F754 /* EDMessage.framework */,
-				36999E7813CD8A8D00D3F754 /* EDMessage.framework */,
+				364081B413CEC5AB00B79B38 /* EDCommon.framework */,
+				364081B513CEC5AB00B79B38 /* EDMessage.framework */,
 				36D53BC413C46CC2009CE685 /* Cocoa.framework */,
 				36D53BC613C46CC2009CE685 /* Other Frameworks */,
 			);
@@ -333,6 +346,7 @@
 			buildConfigurationList = 36D53BF213C46CC2009CE685 /* Build configuration list for PBXNativeTarget "TDDPractice" */;
 			buildPhases = (
 				36D53BBC13C46CC2009CE685 /* Sources */,
+				364081A913CEBE1400B79B38 /* CopyFiles */,
 				36D53BBD13C46CC2009CE685 /* Frameworks */,
 				36D53BBE13C46CC2009CE685 /* Resources */,
 			);
@@ -350,10 +364,10 @@
 			buildConfigurationList = 36D53BF513C46CC2009CE685 /* Build configuration list for PBXNativeTarget "TDDPracticeTests" */;
 			buildPhases = (
 				36D53BDC13C46CC2009CE685 /* Sources */,
+				364081BA13CECDAD00B79B38 /* CopyFiles */,
 				36D53BDD13C46CC2009CE685 /* Frameworks */,
 				36D53BDE13C46CC2009CE685 /* Resources */,
 				36D53BDF13C46CC2009CE685 /* ShellScript */,
-				36999D6613CD7AE600D3F754 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -507,7 +521,12 @@
 		36D53BF013C46CC2009CE685 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"@executable_path/../Frameworks/\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -516,6 +535,8 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "\"@executable_path/../Frameworks/\"";
+				LIBRARY_SEARCH_PATHS = "\"$(LOCAL_LIBRARY_DIR)/Frameworks\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -525,12 +546,19 @@
 		36D53BF113C46CC2009CE685 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"@executable_path/../Frameworks/\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "\"@executable_path/../Frameworks/\"";
+				LIBRARY_SEARCH_PATHS = "\"$(LOCAL_LIBRARY_DIR)/Frameworks\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
@@ -539,11 +567,16 @@
 		36D53BF313C46CC2009CE685 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/\"",
+					"\"$(SRCROOT)/../\"",
+					"\"$(SRCROOT)/../../\"",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/Library\"",
+					"\"$(SRCROOT)/Library/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -558,12 +591,17 @@
 		36D53BF413C46CC2009CE685 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/\"",
+					"\"$(SRCROOT)/../\"",
+					"\"$(SRCROOT)/../../\"",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/Library\"",
+					"\"$(SRCROOT)/Library/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -583,6 +621,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../\"",
+					"\"$(SRCROOT)/../../\"",
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/Library\"",
+					"\"$(SRCROOT)/Library/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -609,6 +653,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../\"",
+					"\"$(SRCROOT)/../../\"",
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/Library\"",
+					"\"$(SRCROOT)/Library/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
